@@ -1,0 +1,24 @@
+{
+  "name": "lab-03",
+  "version": "1.0.0",
+  "description": "Async",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "author": "Erin Trainor",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.6.1",
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security",
+    "jest": "^23.6.0"
+  }
+}
